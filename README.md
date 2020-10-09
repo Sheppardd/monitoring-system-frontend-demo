@@ -1,4 +1,4 @@
-# example
+# Bluetooth Monitoring System (frontend)
 
 ## Project setup
 ```

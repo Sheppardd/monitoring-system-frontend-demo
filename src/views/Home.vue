@@ -68,12 +68,12 @@ export default {
     {
         showEmail()
         {
-            this.$alert("aj.mateos97@gmail.com");
+            this.$alert(process.env.VUE_APP_EMAIL);
         },
 
         showPhone()
         {
-            this.$alert("+44 (0) 7424 342231");
+            this.$alert(process.env.VUE_APP_PHONE);
         }
     }
 
