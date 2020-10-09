@@ -10,10 +10,6 @@ import Home from '../views/Home.vue'
 Vue.use(VueRouter)
 
 /* Parse initialization (static) */
-import Parse from 'parse';
-Parse.initialize(process.env.VUE_APP_PARSE_APP_ID || '', '', process.env.VUE_APP_PARSE_MASTERKEY);
-Parse.serverURL = process.env.VUE_APP_PARSE_SERVER_URL || '';
-
 
 const routes = [
   { 
