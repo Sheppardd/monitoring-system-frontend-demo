@@ -15,15 +15,16 @@
         <div id="mainContent" class="container block pa-10">
             <v-container>
                 <v-layout row wrap>
-                    <v-flex md8 id="webIntro" class="px-5">
-                        <h3 class="pb-2">Where am I?</h3>
+                    <v-flex md8 id="webIntro" class="px-10">
+                        <h3 class="pb-5">Where am I?</h3>
                         <p>
-                            You are visiting my latest work, which consists of a detection system using Bluetooth technology.  In the left panel you can navigate through the system's administration website. You can find the complete project in my Github (just on your right). Below I will be adding more sections little by little where I will talk about my studies, personal projects and goals.
+                            You are visiting my latest work, which consists of a detection system using Bluetooth technology.  In the left panel you can navigate through the system's administration website. You can find the complete project on my Github. Below I will be adding more sections where I will talk about my studies, personal projects and goals.
+
                             <br><br>Cheers~
                         </p>
                     </v-flex>
-                    <v-flex md4 id="contact" class="px-5">
-                        <h3 class="pb-2">Contact</h3>
+                    <v-flex md4 id="contact" class="px-10">
+                        <h3 class="pb-5">Contact</h3>
                         <v-layout row wrap class="my-row">
                             <v-flex md12 sm4 xs6>
                                 <a href="https://www.linkedin.com/in/ajmateos">
@@ -125,7 +126,7 @@ a
 
 #mainContent
 {
-    max-width: 40em;
+    max-width: 45em;
     margin-left: auto;
     margin-right: auto;
 }

@@ -2,11 +2,11 @@
   
   <div class="background">
 
-    <div class='row'>
-      <div class="col-2" v-for="e in this.list" :key="e.id">
+    <v-layout row wrap class="my-row">
+      <v-flex md2 v-for="e in this.list" :key="e.id" class="px-5 py-2">
         <span>{{e.id}}</span>
-      </div>
-    </div>
+      </v-flex>
+    </v-layout>
     
   </div>
 

@@ -3,7 +3,7 @@
   <div class="background">
 
     <div class="row">
-      <div class="center-div">
+      <div class="center-div pt-4">
         <h2 class="hd-gray">Introduce the ID of the new station</h2>
       </div>
     </div>

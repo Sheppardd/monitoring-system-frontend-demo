@@ -44,7 +44,7 @@
             </div>
 
             <div class="box-body">
-              <v-layout row wrap class="my-row pa-4">
+              <v-layout row wrap class="px-6 py-3">
 
                 <!-- Idle stations box -->
                 <v-flex md6 sm12 xs12 class="pa-2">
