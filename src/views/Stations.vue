@@ -70,8 +70,8 @@
                       <div v-for="a in area.stations" :key="a.id" class="float-left">
                         <div class="raspberry ma-2">
                           <div class="raspberry-label">
-                          <span>{{a.id}}</span>
-                        </div>
+                            <span>{{a.id}}</span>
+                          </div>
                         </div>
                       </div>
                   </draggable>
@@ -179,5 +179,6 @@ export default Vue.extend({
 </script>
 
 <style src="../styles/tabs.css" scoped>
+
 
 </style>

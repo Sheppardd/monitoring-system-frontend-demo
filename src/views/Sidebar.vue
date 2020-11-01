@@ -2,7 +2,7 @@
     <v-app>
         <v-navigation-drawer :clipped="false" enable-resize-watcher app dark :mobile-break-point='720'>
 
-          <v-list-item two-line @click='onClickMenu({path:"/home"})'>
+          <v-list-item two-line @click='onClickMenu({path:"/dashboard"})'>
             <v-list-item-avatar >
               <img src="../assets/logoTFG.svg">
             </v-list-item-avatar>

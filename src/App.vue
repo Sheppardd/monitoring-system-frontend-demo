@@ -16,7 +16,7 @@ export default Vue.extend({
   
   created()
   {
-    this.$router.push('/home');
+    this.$router.push('/dashboard');
   }
 });
 </script>

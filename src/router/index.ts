@@ -5,11 +5,8 @@ import Dashboard from '../views/Dashboard.vue'
 import Trolleys from '../views/Trolleys.vue'
 import Areas from '../views/Areas.vue'
 import Stations from '../views/Stations.vue'
-import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
-
-/* Parse initialization (static) */
 
 const routes = [
   { 
@@ -17,12 +14,6 @@ const routes = [
     meta: { requiresAuth: false },
     component: Sidebar, 
     children: [
-      {
-        path: '/home',
-        name: 'home',
-        meta: { requiresAuth: false },
-        component: Home
-      }, 
       {
         path: '/dashboard',
         name: 'dashboard',
